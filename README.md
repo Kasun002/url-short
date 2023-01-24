@@ -6,12 +6,12 @@ This is a simple application to convert long URL in to short format.When you ent
 
 ## Pre request
 
-- Using Node version **(v18.12.1)**
-- Mongo DB community server
+- Using Node version **(v18.12.1)** https://nodejs.org/en/download/
+- Mongo DB community server https://www.mongodb.com/try/download/community
 
 ## Install mongo DB
 
-- Download mongodb community edition ```(https://www.mongodb.com/try/download/community)```
+- Download mongodb community edition https://www.mongodb.com/try/download/community
 - Install
 - create db name ```url```
 - create collection name ```urls```
