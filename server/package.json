@@ -1,0 +1,39 @@
+{
+  "name": "short-url",
+  "version": "1.0.0",
+  "description": "Convert url in to short URL",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "set NODE_ENV=development&& nodemon server.js",
+    "start": "set NODE_ENV=production&& nodemon server.js",
+    "watch": "nodemon src/server.js",
+    "test": "jest",
+    "test-watch": "set NODE_ENV=development&& jest --watch"
+  },
+  "keywords": [
+    "url shorten",
+    "nodejs",
+    "express",
+    "nodemon",
+    "url"
+  ],
+  "author": "geek",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.0",
+    "http": "^0.0.1-security",
+    "mongoose": "^6.3.1",
+    "morgan": "^1.10.0",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.3.3"
+  }
+}

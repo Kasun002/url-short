@@ -1,0 +1,7 @@
+{
+    "mongodbUrl": "mongodb://127.0.0.1:27017/url",
+    "port": 3010,
+    "baseUrl": "http://localhost:3010",
+    "shortUrlPrefix": "https://sho.rt/"
+  }
+  
