@@ -39,7 +39,7 @@ const ListPage = () => {
                         return (
                             <>
                                 <tr>
-                                    <td>{index}</td>
+                                    <td>{index + 1}</td>
                                     <td>{url.longUrl}</td>
                                     <td>
                                         <a rel="noopener noreferrer" href={url.longUrl} target="_blank">{url.shortUrl}</a>
