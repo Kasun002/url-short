@@ -49,4 +49,7 @@ This is a simple application to convert long URL in to short format.When you ent
 
 ## Screen record
 
-https://user-images.githubusercontent.com/8336535/214184827-1ad13aec-5188-49fc-b298-c0d868306d97.mov
+https://user-images.githubusercontent.com/8336535/214202458-b43ff666-1586-4503-a9e0-717cf34b6adf.mov
+
+
+
