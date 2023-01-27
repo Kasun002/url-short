@@ -1,13 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './components/header';
-import HomePage from './pages/home';
+import MainRoutes from './config/routes';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <HomePage></HomePage>
+      {/* <HomePage></HomePage> */}
+      <MainRoutes></MainRoutes>
     </div>
   );
 }

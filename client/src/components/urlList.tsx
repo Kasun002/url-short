@@ -37,15 +37,13 @@ const ListPage = () => {
 
                     {urlList.map((url, index) => {
                         return (
-                            <>
-                                <tr>
-                                    <td>{index + 1}</td>
-                                    <td>{url.longUrl}</td>
-                                    <td>
-                                        <a rel="noopener noreferrer" href={url.longUrl} target="_blank">{url.shortUrl}</a>
-                                    </td>
-                                </tr>
-                            </>
+                            <tr key={`tr-${index}`}>
+                                <td>{index + 1}</td>
+                                <td>{url.longUrl}</td>
+                                <td>
+                                    <a rel="noopener noreferrer" href={url.longUrl} target="_blank">{url.shortUrl}</a>
+                                </td>
+                            </tr>
                         )
                     })}
 
