@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple application to convert long URL in to short format.When you enter any url in to input box and click short button it will convert url in to short format starting prefix with ```https://sho.rt/```. If you click on that URl it will redirect original URL.
+This is a simple application to convert long URL in to short format.When you enter any url in to input box and click short button it will convert url in to short format starting prefix with ```https://sho.rt/```. If you click on that URl it will redirect original URL.Checking the url format from the client side as well as server side.
 
 ## Pre request
 
